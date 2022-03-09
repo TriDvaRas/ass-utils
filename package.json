@@ -1,0 +1,22 @@
+{
+  "name": "ass-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fixBlackBars": "node ./build/fixBlackBars.js",
+    "fixBlackBarsts": "ts-node ./build/fixBlackBars.ts",
+    "build": "tsc -p ./tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.21"
+  },
+  "dependencies": {
+    "@types/readline-sync": "^1.4.4",
+    "fs": "^0.0.1-security",
+    "readline-sync": "^1.4.10"
+  }
+}
